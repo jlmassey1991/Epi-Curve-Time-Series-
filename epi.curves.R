@@ -8,10 +8,10 @@
 # Project folder: TBD
 # Source data folder:
   # Epi Curves
-  # //cdc.gov/project/CCID_NCPDCID_NHSN_SAS/Data/work/_Projects/LTC/COVID-19/Daily Reports/Daily Summary/Morning slides/Excel Files/
+  # //XXXXFiles/
 
   # HHS case rate facet plots
-  # //cdc.gov/project/CCID_NCPDCID_NHSN_SAS/Data/work/_Projects/LTC/COVID-19/Daily Reports/Daily Excel/HHS Regions
+  # //XXXX
 
 # Load packages -----------------------------------------------------------
 
@@ -29,16 +29,16 @@ pacman::p_load(
 data_dat <- "11Sep2023"
 
 ## Pathway for input data (epi_curves). 
-data_input_epi <- "//cdc.gov/project/CCID_NCPDCID_NHSN_SAS/Data/work/_Projects/LTC/COVID-19/Daily Reports/Daily Summary/Morning slides/Excel Files/"
+data_input_epi <- "XXXX"
 
 ## Pathway for input data (case rates by HHS region)
-data_input_hhs <- "//cdc.gov/project/CCID_NCPDCID_NHSN_SAS/Data/work/_Projects/LTC/COVID-19/Daily Reports/Daily Excel/HHS Regions/"
+data_input_hhs <- "XXXX"
 
 ## UPDATE DATE SUFFIX FOR HHS DATA EVERY WEEK TO GET MOST RECENT HHS FILE. THE DATE FALLS ON A SUNDAY (EX. Sep 10 = 0910).
   # Refer to source data folders mentioned above to check most recent file names if necessary.
 data_dat_hhs <- "0910"
 ## Pathway for output data. 
-data_output <- paste0("//cdc.gov/project/CCID_NCPDCID_NHSN_SAS/Data/work/_Projects/LTC/COVID-19/Daily Reports/Daily Summary/Morning slides/Slides/", data_dat)
+data_output <- paste0("XXXX", data_dat)
 
 # Import resident and staff data ------------------------------------------
 # Resident data for epi curves
